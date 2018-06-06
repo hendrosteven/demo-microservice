@@ -1,0 +1,9 @@
+zuul:
+  prefix: /api
+  routes:
+    siswa-service:
+      path: /siswa-service/**
+      url: http://localhost:8080
+    listsiswa-service:
+      path: /listsiswa-service/**
+      url: http://localhost:8081
